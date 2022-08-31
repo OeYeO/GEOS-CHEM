@@ -20,7 +20,6 @@ import cartopy.crs as ccrs
 get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 from gamap_colormap import WhGrYlRd
-from ipywidgets import interact, IntSlider, SelectionSlider, Dropdown
 
 
 # In[237]:
