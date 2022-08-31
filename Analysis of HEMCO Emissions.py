@@ -17,8 +17,6 @@ import pandas
 import xarray as xr
 import geopandas as gpd
 import cartopy.crs as ccrs
-from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
-from gamap_colormap import WhGrYlRd
 
 # Load frequently used packages for data visualisations
 get_ipython().run_line_magic('matplotlib', 'inline')
