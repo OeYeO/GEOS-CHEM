@@ -169,7 +169,7 @@ for chosen_scenario in scenarios:
 
 
 ####################################################################################################################             
-     # divide the compounds into two parts to show them clearly in one figure (two different y_axis)
+    # divide the compounds into two parts to show them clearly in one figure (two different y_axis)
     locals()[chosen_scenario +  "_annual_sum" +"_L"] = [locals()[chosen_scenario + "BCPI" + "_annual_sum"],locals()[chosen_scenario + "BCPO" + "_annual_sum"],locals()[chosen_scenario + "OCPI" + "_annual_sum"],
                                                  locals()[chosen_scenario + "OCPO" + "_annual_sum"]]                                                 
     locals()[chosen_scenario +  "_annual_sum" +"_S"] = [locals()[chosen_scenario + "SO2" + "_annual_sum"],locals()[chosen_scenario + "SO4" + "_annual_sum"],locals()[chosen_scenario + "NO" + "_annual_sum"],
